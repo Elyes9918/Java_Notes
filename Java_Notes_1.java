@@ -3,14 +3,14 @@
 #2 Java UserInput						#18 Java Final Word				#34 Java Write_Into_Files
 #3 Operations							#19 Variable Scope				#35 Java Read_Into_Files
 #4 Java Gui Intro						#20 Java ToString				#36 Java Method Chaining
-#5 Java Math Class						#21 Java Array Of Objects		#37	Java Enum
-#6 Java Random							#22 Java Static Keyword			#38 Java HashMap
-#7 Java Switch							#23 Java Inheritance			#39 Java Recursion
-#8 Java Logical Operations					#24 Java Method Overriding	#40 Java Custom Exception
-#9 Java Nested Loops						#25 Java Super KeyWord		#41 Java Anonymous Objects
-#10 Java Arrays							#26 Java Abstraction			#42 Java Inner Class
-#11 Java String Methods						#27 Java Access Modifiers	#43 Java Anonymous Iner Classes
-#12 Java Wrapper Class						#28 Java Encapsulation		#44 Java Lambda
+#5 Java Math Class						#21 Java Array Of Objects			#37 Java Enum
+#6 Java Random							#22 Java Static Keyword				#38 Java HashMap
+#7 Java Switch							#23 Java Inheritance				#39 Java Recursion
+#8 Java Logical Operations					#24 Java Method Overriding			#40 Java Custom Exception
+#9 Java Nested Loops						#25 Java Super KeyWord				#41 Java Anonymous Objects
+#10 Java Arrays							#26 Java Abstraction				#42 Java Inner Class
+#11 Java String Methods						#27 Java Access Modifiers			#43 Java Anonymous Iner Classes
+#12 Java Wrapper Class						#28 Java Encapsulation				#44 Java Lambda
 #13 Java ArrayList						#29 Java Copy Objects
 #14 Java Arraylist2D						#30 Java Interfaces
 #15 Java For Each						#31 Java Polymorphisme
@@ -1119,7 +1119,7 @@ public class Main {
   }
  }
 }
-//Java Method Chaining************************************************************************************************************************************************
+//Java Method Chaining**********************************************************************************************************************************************36
 public class Main {
 
     public static void main(String[] args) {
@@ -1141,7 +1141,7 @@ public class Main {
 }
 
 // Java
-// enum************************************************************************************************************************************************************
+// enum************************************************************************************************************************************************************37
 enum Planet {
     MERCURY(1), VENUS(2), EARTH(3), MARS(4), JUPITER(5), SATURN(6), URANUS(7), NEPTUNE(8), PLUTO(9);
 
@@ -1182,7 +1182,7 @@ public class Main {
 }
 
 // Java
-// HashMap***********************************************************************************************************************************************************
+// HashMap***********************************************************************************************************************************************************38
 import java.util.HashMap;
 
 public class Main {
@@ -1218,7 +1218,7 @@ public class Main {
 
     }
 }
-// Java recursion********************************************************************************************************************************************************
+// Java recursion********************************************************************************************************************************************************39
 // ******************************* Example 1 *******************************
 import java.util.Scanner;
 
@@ -1277,7 +1277,7 @@ public class Main {
 	}
 	
 }
-//Java Custom Exceptions*************************************************************************************************************************************************
+//Java Custom Exceptions*************************************************************************************************************************************************40
 // ***************************************************
 public class AgeException extends Exception{
 	
@@ -1316,7 +1316,7 @@ public class Main {
 		}  
 }
 
-//Java Anonymous Objects/Nameless Objects***************************************************************************************************
+//Java Anonymous Objects/Nameless Objects**************************************************************************************************************************41
 import java.awt.*;
 import java.util.*;
 import javax.swing.*;
@@ -1353,7 +1353,7 @@ public class Main {
 		frame.setVisible(true);
 	}
 }
-//Java inner Classes******************************************************************************************************************************
+//Java inner Classes***********************************************************************************************************************************************42
 public class Main {
 
 	public static void main(String[] args) {
@@ -1385,7 +1385,7 @@ public class Outside {
 	}
 }
 
-//Java Anonymous Inner Class **********************************************************************************************************************
+//Java Anonymous Inner Class ******************************************************************************************************************************************43
 public class Main {
 
  public static void main(String[] args) {
@@ -1457,5 +1457,5 @@ public class MyFrame extends JFrame{
   this.setVisible(true);
  }
 
-}
-//Java Lambda*****************************************************************************************************************************
+}**********
+//Java Lambda*******************************************************************************************************************************************************44
